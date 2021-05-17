@@ -1,3 +1,25 @@
+header{
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+
+header li{
+  display: inline-block;
+  list-style: none;
+  margin: 15px 20px;
+  padding: 5px 10px;
+}
+
+header li a{
+  color: #fff;
+  text-decoration: none;
+}
+
+header li a.active{
+  text-decoration: underline;
+}
+
 .App {
   text-align: center;
 }
